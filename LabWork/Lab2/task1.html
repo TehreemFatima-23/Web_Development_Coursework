@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form method="post" action="">
+
+        <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </p>
+
+        <p>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </p>
+
+        <p>
+            Gender:
+
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+        </p>
+
+        <p>
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+        </p>
+
+        <p>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="15" max="60">
+        </p>
+
+        <p>
+            Hobbies:<br>
+
+            <label>
+                <input type="checkbox" name="hobby" value="reading">
+                Reading
+            </label>
+
+            <label>
+                <input type="checkbox" name="hobby" value="coding">
+                Coding
+            </label>
+        </p>
+
+        <p>
+            <label for="about">About Yourself:</label><br>
+
+            <textarea id="about" name="about" rows="4" cols="40"></textarea>
+        </p>
+        
+        <!--The main work we need to do in Task 1 () File upload and Search field-->
+        <p>
+            <label for="cv">Upload CV:</label>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc">
+        </p>
+
+        <p>
+            <label for="search">Search Programs:</label>
+            <input type="search" id="search" name="search" placeholder="Search programs...">
+        </p>
+
+        <p>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </p>
+
+    </form>
+
+</body>
+
+</html>
