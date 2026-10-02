@@ -26,4 +26,10 @@
             <li>Structure a full webpage layout using semantic tags instead of generic divs</li>
         </ul>
     </li>
+    <li>
+        <strong>2. Lab 3 Tasks</strong>
+        <ul>
+            <li>CSS Basics</li>
+        </ul>
+    </li>
 </ul>    
