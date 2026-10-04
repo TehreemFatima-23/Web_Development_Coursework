@@ -2,7 +2,7 @@
 <p>Semester lab tasks, assignments, and projects covering HTML, CSS, and JavaScript.</p>
 <h2>Tools Used</h2>
 <ul>
-    <li><strong>Language:</strong> <code>HTML</code></li>
+    <li><strong>Languages:</strong> <code>HTML, CSS</code></li>
     <li><strong>Editor:</strong> <code>Visual Studio Code</code></li>
 </ul>
 
