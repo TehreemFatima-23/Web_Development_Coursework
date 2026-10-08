@@ -39,4 +39,15 @@
             <li>Task 3: E-commerce product card (using external CSS, a global box-sizing: border-box rule, border-radius, box-shadow, overflow: hidden, positioned badge, object-fit, and hover/active/transition states)</li>
         </ul>
     </li>
+    <li>
+        <strong>4. Lab 4 Tasks</strong>
+        <ul>
+            <li>CSS Advanced Concepts</li>
+            <li>Flexbox and CSS Grid</li>
+            <li>Apply mobile-first responsive design with media queries and fluid CSS units</li>
+            <li>Use relative, absolute, fixed and sticky positioning appropriately</li>
+            <li>Task 1: Responsive university landing page (Create a header, navigation bar, hero section, three feature cards, and a footer. Use Flexbox for the navigation and CSS Grid for the feature section; the layout must adapt to small and large screens)</li>
+            <li>Task 2: Product card gallery (Create a responsive product gallery with at least six cards (image, name, description, price, badge, action button). Use auto-fit/minmax() for the grid and add an accessible hover/focus interaction)</li>
+        </ul>
+    </li>
 </ul>    
