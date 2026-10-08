@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #17365d;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #eaf2f8;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: rgb(13, 2, 110);
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Apply Now Button Hover & Motion */
+.hero .apply-btn {
+    padding: 12px 20px;
+    background-color: #005cc5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-block;
+    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero .apply-btn:hover {
+    background-color: #003d82; /* Darker blue */
+    transform: translateY(-4px); /* Moves up by 4px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow on lift */
+}
+
+/* CUI Link Hover & Motion */
+.cui-link {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #17365d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cui-link:hover {
+    background-color: #0d213a; /* Darker header blue */
+    color: #ffffff;
+    transform: translateY(-4px); /* Moves up by 4px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow on lift */
+}
+
+/* Feature Cards */
+.features {
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    padding: 25px;
+    background-color: #969494;
+    border: 1px solid #ddd;
+    color: #0c294b;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    background-color: #17365d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
