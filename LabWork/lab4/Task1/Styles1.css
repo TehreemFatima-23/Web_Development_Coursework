@@ -105,9 +105,9 @@ nav a:hover {
 
 .card {
     padding: 25px;
-    background-color: #969494;
+    background-color: #c5c4c4;
     border: 1px solid #ddd;
-    color: #0c294b;
+    color: #080808;
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s;

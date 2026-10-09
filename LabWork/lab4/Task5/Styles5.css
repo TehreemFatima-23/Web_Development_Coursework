@@ -1,0 +1,111 @@
+/* CSS Variables */
+:root {
+    --primary: #05a73b;
+    --dark: #084602;
+    --light: #f4f4f4;
+    --space: 20px;
+    --radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--light);
+}
+
+/* Navigation using Flexbox */
+nav {
+    background-color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space);
+    flex-wrap: wrap;
+}
+
+nav h2 {
+    color: white;
+    margin: 0;
+}
+
+nav div {
+    display: flex;
+    gap: var(--space);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+nav a:hover {
+    opacity: 0.8;
+}
+
+/* Product Grid */
+.products {
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space);
+}
+
+/* Product Card */
+.card {
+    background-color: rgb(247, 248, 245);
+    padding: var(--space);
+    border-radius: var(--radius);
+    box-shadow: 0 3px 10px #ccc;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    width: 100%;
+    border-radius: var(--radius);
+}
+
+.price {
+    color: var(--primary);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: var(--dark);
+}
+
+/* Responsive Navigation */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav div {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

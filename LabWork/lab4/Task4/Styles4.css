@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(6, 6, 7);
+    background-color: rgb(228, 179, 243);
+    padding: 50px;
+}
+
+/* Information Card */
+.info-card {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    overflow: hidden; /* Ensures pseudo-element stays within rounded corners */
+    transition: transform 0.3s;
+    animation: appear 1s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Accent Line Pseudo-element */
+.info-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #5e03a8;
+}
+
+/* Hover + Transform */
+.info-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Button */
+.learn-more {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #5e03a8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s ease;
+}
+
+.learn-more:hover {
+    transform: scale(1.05);
+    background-color: #930ee0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Keyboard Focus */
+.learn-more:focus-visible {
+    outline: 3px solid #b0d4fa;
+    outline-offset: 3px;
+}
+
+/* Keyframe Animation */
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Reduced Motion for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
