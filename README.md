@@ -46,8 +46,12 @@
             <li>Flexbox and CSS Grid</li>
             <li>Apply mobile-first responsive design with media queries and fluid CSS units</li>
             <li>Use relative, absolute, fixed and sticky positioning appropriately</li>
-            <li>Task 1: Responsive university landing page (Create a header, navigation bar, hero section, three feature cards, and a footer. Use Flexbox for the navigation and CSS Grid for the feature section; the layout must adapt to small and large screens)</li>
-            <li>Task 2: Product card gallery (Create a responsive product gallery with at least six cards (image, name, description, price, badge, action button). Use auto-fit/minmax() for the grid and add an accessible hover/focus interaction)</li>
+            <li>@keyframes animation</li>
+            <li>Task 1: Responsive university landing page </li>
+            <li>Task 2: Product card gallery</li>
+            <li>Task 3: Dashboard layout </li>
+            <li>Task 4: Animated information component</li>
+            <li>Task 5: Refactor a previous lab</li>
         </ul>
     </li>
 </ul>    
