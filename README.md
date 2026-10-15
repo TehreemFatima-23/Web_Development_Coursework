@@ -54,4 +54,14 @@
             <li>Task 5: Refactor a previous lab</li>
         </ul>
     </li>
+    <li>
+        <strong>5. Lab 5 Tasks</strong>
+        <ul>
+            <li>Designing Responsive Page Layouts using Tailwind CSS and Bootstrap 5</li>
+            <li>Flexbox and CSS Grid</li>
+            <li>Task 1: Responsive multi-column layout comparison</li>
+            <li>Task 2: Mobile filter drawer</li>
+            <li>Task 3: Responsive navigation menu</li>
+        </ul>
+    </li>
 </ul>    
