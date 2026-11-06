@@ -68,6 +68,7 @@
         <strong>6. Lab 6 Tasks</strong>
         <ul>
             <li>JavaScript Basics</li>
+            <li>JavaScript Event Handling</li>
             <li>Task 1: Safe marks analyser</li>
             <li>Task 2: Non-mutating catalogue report</li>
             <li>Task 3: Reusable revision tracker</li>
