@@ -74,4 +74,11 @@
             <li>Task 3: Reusable revision tracker</li>
         </ul>
     </li>
+    <li>
+        <strong>DOM And Event Handling Practice</strong>
+        <ul>
+            <li>Task 1: Finding the Square of a Number Using an Alert Box</li>
+            <li>Task 2: Arithmetic Calculator Using Radio Buttons and DOM Manipulation</li>
+        </ul>
+    </li>    
 </ul>    
