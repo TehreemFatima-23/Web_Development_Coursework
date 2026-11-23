@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.table-section {
+    width: 60%;
+}
+
+.form-section {
+    width: 35%;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 14px;
+}
+
+th {
+    background-color: #cccccc;
+    text-align: left;
+    padding: 12px 6px;
+    font-weight: normal;
+}
+
+td {
+    padding: 12px 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+a {
+    color: #555555;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-section {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.form-row > label {
+    width: 75px;
+    font-size: 14px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="number"],
+.form-row select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.gender-options input {
+    margin-left: 5px;
+}
+
+.gender-options label {
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#message {
+    font-size: 13px;
+    margin-bottom: 0;
+}
