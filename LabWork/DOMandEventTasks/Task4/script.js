@@ -7,7 +7,7 @@ button.addEventListener("click", function(){
         result.textContent = "Please select a city first";
     }
     else{
-        city.remove(city.selectedIndex);
+        city.remove(city.selectedIndex);   //selectedIndex tells JS which option is selected from drop down
         result.textContent = "City removed successfully";
     }
 });
