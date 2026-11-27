@@ -81,6 +81,7 @@
             <li>Task 2: Arithmetic Calculator Using Radio Buttons and DOM Manipulation</li>
             <li>Task 3: Extracting and Displaying HTML Link Attributes Dynamically</li>
             <li>Task 4: Remove Selected City from a Dropdown List</li>
+            <li>Task 5: Dynamically Change CSS Properties Using JavaScript</li>
         </ul>
     </li>    
 </ul>    
